@@ -2,6 +2,10 @@
 
 return whether two boxes or points are colliding in 2d
 
+[![build status](https://secure.travis-ci.org/substack/box-collide.png)](http://travis-ci.org/substack/box-collide)
+
+[![testling badge](https://ci.testling.com/substack/box-collide.png)](https://ci.testling.com/substack/box-collide)
+
 # example
 
 ``` js
