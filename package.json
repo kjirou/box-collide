@@ -21,7 +21,8 @@
     "2d",
     "geometry",
     "box",
-    "point"
+    "point",
+    "overlap"
   ],
   "author": {
     "name": "James Halliday",
