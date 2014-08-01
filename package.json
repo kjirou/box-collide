@@ -1,0 +1,32 @@
+{
+  "name": "box-collide",
+  "version": "1.0.0",
+  "description": "return whether two boxes or points are colliding in 2d",
+  "main": "index.js",
+  "devDependencies": {
+    "tape": "^2.13.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/box-collide.git"
+  },
+  "homepage": "https://github.com/substack/box-collide",
+  "keywords": [
+    "bbox",
+    "collision",
+    "inside",
+    "2d",
+    "geometry",
+    "box",
+    "point"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}
