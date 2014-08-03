@@ -1,6 +1,6 @@
 {
   "name": "box-collide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "return whether two boxes or points are colliding in 2d",
   "main": "index.js",
   "devDependencies": {
