@@ -28,12 +28,12 @@ function norm (q) {
         top: q.top,
         bottom: q.bottom
     };
-    if (p.left === undefined && q.x) p.left = q.x;
-    if (p.top === undefined && q.y) p.top = q.y;
+    if (p.left === undefined && q.x !== undefined) p.left = q.x;
+    if (p.top === undefined && q.y !== undefined) p.top = q.y;
     
     var w = q.width || 0, h = q.height || 0;
     
-    if (p.right === undefined && q.x) p.right = q.x + w;
-    if (p.bottom === undefined && q.y) p.bottom = q.y + h;
+    if (p.right === undefined && q.x !== undefined) p.right = q.x + w;
+    if (p.bottom === undefined && q.y !== undefined) p.bottom = q.y + h;
     return p;
 }
