@@ -14,7 +14,7 @@ module.exports = function (ra, rb) {
 };
 
 function isect (x, lower, upper) {
-    return x >= lower && x <= upper;
+    return x > lower && x < upper;
 }
 
 function inside (a0, a1, b0, b1) {
